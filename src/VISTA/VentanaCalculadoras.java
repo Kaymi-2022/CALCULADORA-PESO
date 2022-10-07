@@ -353,7 +353,6 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
-        txtEstatura1 = new VISTA.TextField();
         labelnombreCQ = new javax.swing.JTextField();
         labeledadCQ = new javax.swing.JTextField();
         labelpesoCQ = new javax.swing.JTextField();
@@ -927,12 +926,6 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
         jLabel30.setText("¿CUAL ES TU ACTIVIDAD FISICA?");
         jLabel30.setOpaque(true);
 
-        txtEstatura1.setBackground(new java.awt.Color(255, 255, 255));
-        txtEstatura1.setForeground(new java.awt.Color(0, 0, 0));
-        txtEstatura1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txtEstatura1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        txtEstatura1.setLabelText("INGRESE TIEMPO");
-
         labelnombreCQ.setEditable(false);
         labelnombreCQ.setBackground(new java.awt.Color(255, 255, 255));
         labelnombreCQ.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
@@ -1022,9 +1015,7 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
                             .addComponent(labelalturaCQ, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(labelpesoCQ, javax.swing.GroupLayout.DEFAULT_SIZE, 243, Short.MAX_VALUE)
-                                .addComponent(txtEstatura1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(labelpesoCQ, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(labelgeneroCQ, javax.swing.GroupLayout.PREFERRED_SIZE, 243, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(labeledadCQ))
                         .addGap(56, 56, 56))
@@ -1051,13 +1042,11 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(37, 37, 37)
                         .addComponent(labeledadCQ, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(36, 36, 36)
-                        .addComponent(txtEstatura1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(27, 27, 27)
                         .addComponent(labelalturaCQ, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
                         .addComponent(jLabel30)
                         .addGap(29, 29, 29)
                         .addComponent(cboxQuemaC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1336,7 +1325,6 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
     private javax.swing.JTextField resultQuemaC;
     private VISTA.TextField txtEdad;
     private VISTA.TextField txtEstatura;
-    private VISTA.TextField txtEstatura1;
     private javax.swing.JTextField txtFecha;
     private javax.swing.JTextField txtObservacionIMC;
     private VISTA.TextField txtPeso;
