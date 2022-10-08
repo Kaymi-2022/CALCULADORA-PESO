@@ -254,10 +254,6 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
             obj[4] = resultIMC.getText();
             obj[5] = resultIMC1.getText();
             obj[6] = resultQuemaC.getText();
-//            obj[0] = resultIMC.getText();
-//            obj[0] = resultIMC.getText();
-//            obj[1] = resultConsumosC.getText();
-//            obj[2] = resultQuemaC.getText();
             historialC.registrar(obj);
             JOptionPane.showMessageDialog(null, "SE REGISTRO CORRECTAMENTE", "MENSAJE", 2);
             Listar();
