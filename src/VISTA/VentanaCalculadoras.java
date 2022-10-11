@@ -265,7 +265,7 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
     }
 
     public void llenarComboxActividadF() {
-        String Actividad[] = {"Eliga opcion.....", "SEDENTARIO", "BAJA",
+        String Actividad[] = {"Eliga opcion.....","SEDENTARIO", "SEDENTARIO", "BAJA",
             "ACTIVO", "MUY ACTIVO"};
         for (String actividades : Actividad) {
             cboxActividades.addItem(actividades);
@@ -375,16 +375,16 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
         jLabel40 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
         jLabel43 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jTextField8 = new javax.swing.JTextField();
         jButton3 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable = new javax.swing.JTable();
         btnGrabarDatosInicio4 = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         materialTabbed1.setBackground(new java.awt.Color(0, 153, 204));
+        materialTabbed1.setForeground(new java.awt.Color(0, 0, 0));
         materialTabbed1.setTabPlacement(javax.swing.JTabbedPane.LEFT);
 
         jPanel6.setBackground(new java.awt.Color(97, 211, 211));
@@ -582,7 +582,7 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/USER.png")), USUARIODATOS); // NOI18N
+        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/USER-removebg-preview.png")), USUARIODATOS); // NOI18N
 
         jPanel1.setBackground(new java.awt.Color(97, 211, 211));
 
@@ -594,10 +594,11 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("IMC:");
 
-        resultIMC.setBackground(new java.awt.Color(255, 255, 255));
+        resultIMC.setBackground(new java.awt.Color(97, 211, 211));
         resultIMC.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         resultIMC.setForeground(new java.awt.Color(0, 0, 0));
         resultIMC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        resultIMC.setOpaque(false);
 
         jLabel33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
 
@@ -605,10 +606,11 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
         jLabel34.setForeground(new java.awt.Color(255, 255, 255));
         jLabel34.setText("NIVEL DE PESO:");
 
-        txtObservacionIMC.setBackground(new java.awt.Color(255, 255, 255));
+        txtObservacionIMC.setBackground(new java.awt.Color(97, 211, 211));
         txtObservacionIMC.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         txtObservacionIMC.setForeground(new java.awt.Color(0, 0, 0));
         txtObservacionIMC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txtObservacionIMC.setOpaque(false);
 
         lblnombreIMC.setEditable(false);
         lblnombreIMC.setBackground(new java.awt.Color(255, 255, 255));
@@ -730,8 +732,7 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(jLabel12)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(resultIMC, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addComponent(resultIMC, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(0, 124, Short.MAX_VALUE)
                                 .addComponent(lblnombreIMC, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -768,7 +769,7 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/calcular el imc.png")), IMC); // NOI18N
+        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/calcular_el_imc-removebg-preview.png")), IMC); // NOI18N
 
         CALORIAS.setName(""); // NOI18N
 
@@ -832,9 +833,10 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
             }
         });
 
-        resultIMC1.setBackground(new java.awt.Color(255, 255, 255));
+        resultIMC1.setBackground(new java.awt.Color(97, 211, 211));
         resultIMC1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         resultIMC1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        resultIMC1.setOpaque(false);
 
         labelapellidoQC.setEditable(false);
         labelapellidoQC.setBackground(new java.awt.Color(255, 255, 255));
@@ -947,7 +949,7 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
                 .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/consumo de calorias.png")), CALORIAS); // NOI18N
+        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/consumo_de_calorias-removebg-preview.png")), CALORIAS); // NOI18N
 
         jPanel3.setBackground(new java.awt.Color(97, 211, 211));
 
@@ -1013,10 +1015,11 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
             }
         });
 
-        resultQuemaC.setBackground(new java.awt.Color(255, 255, 255));
+        resultQuemaC.setBackground(new java.awt.Color(97, 211, 211));
         resultQuemaC.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         resultQuemaC.setForeground(new java.awt.Color(0, 0, 0));
         resultQuemaC.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        resultQuemaC.setOpaque(false);
 
         labelapellidosCQ.setEditable(false);
         labelapellidosCQ.setBackground(new java.awt.Color(255, 255, 255));
@@ -1122,15 +1125,15 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/calorias quemadas.png")), PERDIDAC); // NOI18N
+        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/calorias_quemadas-removebg-preview.png")), PERDIDAC); // NOI18N
 
         jPanel4.setBackground(new java.awt.Color(97, 211, 211));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Berlin Sans FB", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("HISTORIAL DE USO DE LA CALCULADORA");
-        jPanel4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
+        jLabel1.setText("DE LA CALCULADORA");
+        jPanel4.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 100, 530, -1));
 
         jLabel36.setBackground(new java.awt.Color(255, 255, 255));
         jLabel36.setFont(new java.awt.Font("Arial", 3, 18)); // NOI18N
@@ -1153,15 +1156,6 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
 
         jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMG/cronometro.png"))); // NOI18N
         jPanel4.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 450, 48, -1));
-
-        jLabel32.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel32.setText("BUSCAR FECHA");
-        jPanel4.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 153, -1));
-
-        jTextField8.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField8.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel4.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, 130, -1));
 
         jButton3.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         jButton3.setText("+");
@@ -1193,6 +1187,11 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
         });
         jPanel4.add(btnGrabarDatosInicio4, new org.netbeans.lib.awtextra.AbsoluteConstraints(476, 547, 200, 40));
 
+        jLabel7.setFont(new java.awt.Font("Berlin Sans FB", 1, 48)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("HISTORIAL DE USO");
+        jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 460, -1));
+
         javax.swing.GroupLayout HISTORIALLayout = new javax.swing.GroupLayout(HISTORIAL);
         HISTORIAL.setLayout(HISTORIALLayout);
         HISTORIALLayout.setHorizontalGroup(
@@ -1208,21 +1207,23 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
                 .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 610, Short.MAX_VALUE))
         );
 
-        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/historial.png")), HISTORIAL); // NOI18N
+        materialTabbed1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/IMG/historial-removebg-preview.png")), HISTORIAL); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(materialTabbed1, javax.swing.GroupLayout.PREFERRED_SIZE, 828, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(materialTabbed1, javax.swing.GroupLayout.PREFERRED_SIZE, 828, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(materialTabbed1, javax.swing.GroupLayout.PREFERRED_SIZE, 620, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         materialTabbed1.getAccessibleContext().setAccessibleName("");
@@ -1328,7 +1329,6 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel36;
@@ -1341,6 +1341,7 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -1348,7 +1349,6 @@ public class VentanaCalculadoras extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable;
-    private javax.swing.JTextField jTextField8;
     private javax.swing.JLabel labelFoto;
     private javax.swing.JLabel labelFoto1;
     private javax.swing.JLabel labelFoto4;
