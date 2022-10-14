@@ -26,9 +26,4 @@ public class Conexion {
         }
         return con;
     }  
-
-//    public static void main(String[] args) {
-//        Conexion con= new Conexion();
-//        con.conectar();
-//    }
 }

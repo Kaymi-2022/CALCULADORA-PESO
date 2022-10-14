@@ -1,10 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package VISTA;
 
-import CONTROLADOR.Conexion;
+
 import CONTROLADOR.LoginController;
 import java.awt.Image;
 import javax.swing.Icon;
@@ -25,8 +22,6 @@ public class InicioLogin extends javax.swing.JFrame {
         setTitle("INICIAR SESION");
         this.setLocationRelativeTo(this);
         setResizable(false);
-//        SetImageLabel(jLabelFondoLogin, "src/IMG/nutritionist.png");
-
     }
 
     @SuppressWarnings("unchecked")
@@ -215,8 +210,6 @@ public class InicioLogin extends javax.swing.JFrame {
                 VentanaCalculadoras principal = new VentanaCalculadoras();
                 principal.setVisible(true);
                 hide();
-//                this.setVisible(false);
-//                setVisible(false); 
             } else {
                 txtuser.setText("");
                 txtpass.setText("");

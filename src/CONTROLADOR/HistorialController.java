@@ -120,6 +120,4 @@ public class HistorialController implements CRUD {
     public List buscar(String texto) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-    
-
 }

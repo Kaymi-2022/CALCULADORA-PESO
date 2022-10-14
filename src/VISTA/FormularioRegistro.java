@@ -1,18 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package VISTA;
 
 import CONTROLADOR.LoginController;
-import MODELO.Historial;
-import MODELO.Usuarios;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author WINDOWS
- */
 public class FormularioRegistro extends javax.swing.JFrame {
 
     LoginController registrarUsuario = new LoginController();
